@@ -19,4 +19,11 @@ p {
   color: tomato;
   margin-top: 10px;
   text-align: center;
+}
+
+.para__item {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */
