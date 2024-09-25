@@ -10,6 +10,7 @@ $text-decoration: none;
     height: 40px;
     width: 90px;
     padding: 0 20px;
+    
 }
 
 @import "btn.scss";
@@ -45,4 +46,16 @@ $text-decoration: none;
 .btn__item2{
      @include fix-btn(rgb(166, 245, 173));
    color: black;
+}
+.btn__item3{
+    @include fix-btn(rgb(187, 187, 187));
+  color: black;
+ 
+}
+
+.btn__section{
+    font-family: $font-family;
+    display: flex;
+    justify-content: center;
+     justify-content: space-around;
 }

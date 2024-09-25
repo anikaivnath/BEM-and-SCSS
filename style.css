@@ -48,4 +48,22 @@ p {
   width: 90px;
   padding: 0 20px;
   color: black;
+}
+
+.btn__item3 {
+  color: rgb(36, 34, 34);
+  border-radius: 12px;
+  border-radius: 20px;
+  background-color: rgb(187, 187, 187);
+  height: 40px;
+  width: 90px;
+  padding: 0 20px;
+  color: black;
+}
+
+.btn__section {
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */
