@@ -2,7 +2,14 @@ $primary-color:tomato;
 $font-family: Helvetica, sans-serif;
 $text-decoration: none;
 
+@mixin fix-btn{
+    padding:3px;
+    border-radius:2px
+
+}
+
 @import "btn.scss";
+
 
 
 .nav__item {
