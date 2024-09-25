@@ -1,7 +1,10 @@
 p {
-  width: 80px;
+  width: 200px;
   text-align: justify;
-  color: orange;
+  color: black;
+  background-color: tomato;
+  padding: 40px;
+  border-radius: 50px;
 }
 
 .nav__item {

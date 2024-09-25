@@ -1,9 +1,16 @@
-$T-w:80px;
+$T-w:200px;
 $T-d:justify;
-$color:orange;
+$color:black;
+$bg:tomato;
+$padding:40px;
+$border:50px;
 
 p{
  width: $T-w;
  text-align:$T-d;
  color: $color;
+ background-color: $bg;
+ padding:$padding;
+ border-radius:$border;
+ 
 }
