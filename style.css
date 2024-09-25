@@ -1,1 +1,12 @@
-/*# sourceMappingURL=style.css.map */
+.nav__item {
+  font-family: Helvetica, sans-serif;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.nav__item .nav__item--link {
+  text-decoration: none;
+  color: tomato;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

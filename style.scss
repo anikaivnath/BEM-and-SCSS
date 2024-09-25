@@ -1,2 +1,22 @@
-$primary-color: tomato;
+$primary-color:tomato;
 $font-family: Helvetica, sans-serif;
+$text-decoration: none;
+
+
+.nav__item {
+   
+    font-family: $font-family;
+    gap:10px; 
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+   
+
+    .nav__item--link {
+        text-decoration: $text-decoration;
+        color: $primary-color;
+       
+        text-align: center;
+    }
+    
+}
