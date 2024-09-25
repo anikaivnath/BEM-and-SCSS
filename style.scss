@@ -2,17 +2,14 @@ $primary-color:tomato;
 $font-family: Helvetica, sans-serif;
 $text-decoration: none;
 
-@mixin fix-btn{
-    
+@mixin fix-btn($bg-color: rgb(255, 181, 181)) {
     color: rgb(36, 34, 34);
     border-radius: 12px; 
-    border-radius:20px;
-    background-color: rgb(255, 181, 181);
-    height:40px;
-    width:90px;
-    padding:0 20px;
-    
-
+    border-radius: 20px;
+    background-color: $bg-color; // Use the parameter for background color
+    height: 40px;
+    width: 90px;
+    padding: 0 20px;
 }
 
 @import "btn.scss";
@@ -46,6 +43,6 @@ $text-decoration: none;
     font-family: $font-family;
 }
 .btn__item2{
-     @include fix-btn(red);
-    font-family: $font-family;
+     @include fix-btn(rgb(166, 245, 173));
+   color: black;
 }
