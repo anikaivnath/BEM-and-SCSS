@@ -1,3 +1,9 @@
+p {
+  width: 80px;
+  text-align: justify;
+  color: orange;
+}
+
 .nav__item {
   font-family: Helvetica, sans-serif;
   gap: 10px;

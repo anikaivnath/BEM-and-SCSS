@@ -2,6 +2,8 @@ $primary-color:tomato;
 $font-family: Helvetica, sans-serif;
 $text-decoration: none;
 
+@import "btn.scss";
+
 
 .nav__item {
    

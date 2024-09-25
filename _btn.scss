@@ -1,0 +1,9 @@
+$T-w:80px;
+$T-d:justify;
+$color:orange;
+
+p{
+ width: $T-w;
+ text-align:$T-d;
+ color: $color;
+}
