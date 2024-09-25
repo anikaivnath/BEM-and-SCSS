@@ -7,6 +7,10 @@ p {
   border-radius: 50px;
 }
 
+.para {
+  margin-top: 25px;
+}
+
 .nav__item {
   font-family: Helvetica, sans-serif;
   gap: 10px;
@@ -17,7 +21,7 @@ p {
 .nav__item .nav__item--link {
   text-decoration: none;
   color: tomato;
-  margin-top: 10px;
+  margin-top: 30px;
   text-align: center;
 }
 
