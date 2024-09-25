@@ -26,4 +26,26 @@ p {
   gap: 20px;
   justify-content: center;
   margin-top: 10px;
+}
+
+.btn__item {
+  color: rgb(36, 34, 34);
+  border-radius: 12px;
+  border-radius: 20px;
+  background-color: rgb(255, 181, 181);
+  height: 40px;
+  width: 90px;
+  padding: 0 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+.btn__item2 {
+  color: rgb(36, 34, 34);
+  border-radius: 12px;
+  border-radius: 20px;
+  background-color: rgb(255, 181, 181);
+  height: 40px;
+  width: 90px;
+  padding: 0 20px;
+  font-family: Helvetica, sans-serif;
 }/*# sourceMappingURL=style.css.map */
