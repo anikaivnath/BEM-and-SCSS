@@ -28,7 +28,6 @@ $text-decoration: none;
         text-align: center;
     }
 }
-
 .para__item {
     display: flex;
     flex-direction: column; // stack the paragraphs vertically
@@ -37,12 +36,12 @@ $text-decoration: none;
     margin-top: 10px;
     text-align: center; // center text
 }
-
 .btn__item {
     @include fix-btn;
     font-family: $font-family;
+    display:flex;
+    justify-content: centera
 }
-
 .btn__item2 {
     @include fix-btn(rgb(166, 245, 173));
     color: black;
